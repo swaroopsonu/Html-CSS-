@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Employee Details</title>
+
+
+<style>
+
+ .userinput{
+
+    padding-top: 20px;
+    padding-bottom: 7px;
+    padding-left: 100px;
+    padding-right: 5px;
+    margin-bottom: 30px;
+	
+
+   }
+  
+  
+   
+    #container{
+
+
+       padding: 10px;
+       width: 55%;
+       margin:  auto;
+       margin-top: 1%;
+       margin-bottom: 1%;
+       background-color: #1c8760;
+      }
+	  
+	  label{
+    
+    color:white ;
+	width:100%;
+    font-size: 30px;
+   }
+   
+   .button{
+    background-color:#4a380a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: black;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+</style>
+<script>
+fuction addEmployee()
+{
+
+}
+</script>
+
+<body style="background-color:#030c07;">
+<div id ="container">
+	<h1 style="color:black;"  align="center"><b>Welcome to Employee Registration Page</b></h1>
+	 <form >
+ 
+  <div class="userinput">
+   <label> Employee Id  </label>
+   <input type="text" name="Emp id" value="" >
+  </div>
+  
+  <div class="userinput">
+   <label> Employee Name  </label>
+   <input type="text" name="EmpName" value="" >
+  </div>
+   
+   <div class="userinput">
+   <label>Employee Age</label>
+   <input type="date" name="bday" max="2000-12-31">
+  </div>
+  
+  <div class="userinput">
+   <label> Gender </label>
+   <input type="radio" name="gender" value="m"/> Male
+   <input type="radio" name="gender" value="f" /> Female  
+   <input type="radio" name="gender" value="o" /> Other   
+  </div>
+  
+  <div class="userinput">
+   <label> isFTE</label>
+   <input type="radio" name="isFTE" value="T"/> True
+   <input type="radio" name="isFTE" value="F" /> False
+  </div>
+  
+  <div class="userinput">
+   <label>Employee Salary</label>
+   <input type="text" name="salary"  value="" />
+  </div>
+  
+  <div style="text-align:center">
+   <button  class="button"> Reset</button>
+      <button  class="button" onclick="addEmployee()">Submit</button>   
+  </div>
+  
+ </form>
+ 
+ </div>
+ 
+</body>
+
+</html>
+				
+				
+			   
+			  
+  
+				 
+               
+				
+
